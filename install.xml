@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<contrib>
+    <description>
+        <details contrib_ref="0" forum_ref="0" contrib_type="СДЭК модул доставки" status="0" last_update="2007-03-02"/>
+        <comments>СДЭК модул доставки
+        </comments>
+        <credits>Автор: Милан
+        
+				Добавляем в интернет-магазин СДЭК модул доставки.</credits>
+    </description>
+
+	<addfile>
+		<file name="/lang/russian/modules/shipping/sdek.php" />
+	</addfile>
+	
+	<addfile>
+		<file name="/includes/modules/CalculatePriceDeliveryCdek.php" /> 
+	</addfile>
+	
+	<addfile>
+		<file name="/includes/modules/shipping/sdek.php" />
+	</addfile>
+	
+	<addfile>
+		<file name="/minidatabase.php" />
+	</addfile>
+	
+	<addfile>
+		<file name="/city.csv" />
+	</addfile>
+	
+	<addfile>
+		<file name="images/icons/shipping_sdek.png" />
+	</addfile>
+	
+</contrib>
